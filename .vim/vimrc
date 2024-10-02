@@ -1,0 +1,51 @@
+" --- GENERAL ---
+
+filetype on
+filetype plugin on
+filetype indent on
+syntax on
+
+set nocompatible
+set autoread
+set hidden
+set fileformat=unix
+set encoding=UTF-8
+
+set backspace=indent,eol,start
+set tabstop=4
+set shiftwidth=4
+set autoindent
+set smartindent
+set smarttab
+set nowrap
+" set list
+" set listchars=eol:.,tab:>-,trail:~,extends:>,precedes:<
+
+set cursorline
+set number
+set relativenumber
+set scrolloff=10
+set signcolumn=number
+set showcmd
+set noshowmode
+set conceallevel=1
+
+set noerrorbells visualbell t_vb=
+" set mouse=a
+set noswapfile
+set nobackup
+set undodir=~/.vim/undodir
+set undofile
+set clipboard=unnamed
+
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+
+" --- SOURCE ---
+
+so ~/.vim/config/keybinds.vim
+so ~/.vim/config/plugins.vim
+so ~/.vim/config/plugin-config.vim
+so ~/.vim/config/colorschemes.vim
