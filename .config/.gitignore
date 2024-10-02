@@ -3,6 +3,5 @@
 
 # except these files:
 !.gitignore
-!.config/
-!.vim/
-!.tmux.conf
+!kitty/
+!ranger/
