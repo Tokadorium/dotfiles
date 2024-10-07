@@ -3,5 +3,5 @@
 
 # except these files:
 !.gitignore
-!kitty/
+!alacritty/
 !ranger/
