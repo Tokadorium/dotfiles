@@ -1,0 +1,11 @@
+[window]
+
+padding = { x = 6, y = 6 }
+dynamic_padding = true
+startup_mode = "Maximized"
+dynamic_title = false
+
+[font]
+
+normal = { family = "0xProto Nerd Font Mono", style = "Regular" }
+size = 14
