@@ -3,6 +3,8 @@
 
 # except these files:
 !.gitignore
+!.bash_profile
+!.bashrc
 !.config/
 !.vim/
 !.tmux.conf
