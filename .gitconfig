@@ -1,0 +1,8 @@
+[user]
+	name = Tokadorium
+	email = tokadorium@gmail.com
+[init]
+	defaultBranch = master
+[core]
+	editor = vim
+	; sshCommand = ssh -o IdentitiesOnly=yes -i ~/.ssh/git
