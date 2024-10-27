@@ -9,7 +9,7 @@ set wildignore+=*.DS_Store,*.min.*
 " --- ALE ---
 
 let g:ale_disable_lsp = 1
-let g:ale_linters = {'cpp': ['gcc', 'g++']}
+let g:ale_linters = {'cpp': ['clang', 'gcc', 'g++']}
 
 
 " --- COC ---

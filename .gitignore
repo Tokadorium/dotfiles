@@ -8,3 +8,4 @@
 !.config/
 !.vim/
 !.tmux.conf
+!.tmux/

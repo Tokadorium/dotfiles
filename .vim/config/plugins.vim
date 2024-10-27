@@ -2,9 +2,7 @@ call plug#begin()
 
 " --- THEMES ---
 
-Plug 'joshdick/onedark.vim'
-Plug 'nanotech/jellybeans.vim'
-Plug 'morhetz/gruvbox'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 
 " --- PLUGINS ---
