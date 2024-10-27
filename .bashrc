@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 # PS1='[\u@\h \W]\$ '
-PS1='[\u@\h \[\e[2m\]\W\[\e[0m\]] > \a'
+PS1='[\u@\h \[\e[2m\]\W\[\e[0m\]] \$ '
 
 case ${TERM} in
   Eterm*|alacritty*|aterm*|foot*|gnome*|konsole*|kterm*|putty*|rxvt*|tmux*|xterm*)
