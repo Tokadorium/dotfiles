@@ -1,7 +1,16 @@
 " --- VIM ---
 
-nnoremap <C-h> :tabprevious<CR>
-nnoremap <C-l> :tabnext<CR>
+" nnoremap <C-h> :tabprevious<CR>
+" nnoremap <C-l> :tabnext<CR>
+
+nnoremap <C-w>% <C-w><C-v>
+nnoremap <C-w>" <C-w><C-s>
+
+nnoremap <C-j> <C-w><C-j>
+nnoremap <C-k> <C-w><C-k>
+nnoremap <C-l> <C-w><C-l>
+nnoremap <C-h> <C-w><C-h>
+
 inoremap jj <Esc>
 
 
@@ -19,9 +28,11 @@ nmap <F9> :TagbarToggle<CR>
 
 " nmap <silent> gd <Plug>(coc-definition)
 
-nmap <silent> gd :call CocAction('jumpDefinition', 'split')<CR>
-nmap <silent> gv :call CocAction('jumpDefinition', 'vsplit')<CR>
-nmap <silent> gt :call CocAction('jumpDefinition', 'tabe')<CR>
+" nmap <silent> gd :call CocAction('jumpDefinition', 'split')<CR>
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
 
 " use <tab> to trigger completion and navigate to the next complete item
 function! CheckBackspace() abort
