@@ -9,6 +9,17 @@ startup_mode = "Maximized"
 dynamic_title = false
 
 
+[cursor]
+
+style = { shape = "Block", blinking = "Always" }
+blink_timeout = 60
+
+
+[mouse]
+
+hide_when_typing = true
+
+
 [font]
 
 normal = { family = "0xProto Nerd Font Mono", style = "Regular" }
