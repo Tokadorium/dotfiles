@@ -1,0 +1,12 @@
+[user]
+	name = tokadorium
+	email = tokadorium@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+	; sshCommand = ssh -o IdentitiesOnly=yes -i ~/.ssh/git
+[color]
+	ui = auto
+[merge]
+	tool = vimdiff

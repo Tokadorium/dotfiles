@@ -3,6 +3,7 @@
 
 # except these files:
 !.gitignore
+!.gitconfig
 !.bash/
 !.bash_profile
 !.bashrc
