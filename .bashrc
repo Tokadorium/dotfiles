@@ -5,8 +5,14 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# PS1='[\u@\h \W]\$ '
-PS1='\u@\h:\W \$ '
+# PS1='\u@\h \W \$ '
+
+. ~/.bash/git-prompt.sh
+
+export GIT_PS1_SHOWDIRTYSTATE=1
+export PS1='\u@\h \W$(__git_ps1 " (%s)")\$ '
+
+. ~/.bash/lscolors.sh
 
 alias ls="ls --color=auto"
 
