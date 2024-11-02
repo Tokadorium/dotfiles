@@ -24,6 +24,7 @@ set shortmess+=c
 
 " Statusline segments configuration
 let g:airline_section_z=airline#section#create(['%p%%'])
+let g:airline#extensions#whitespace#checks = []
 
 " ALE integration
 let g:airline#extensions#ale#enabled=1
