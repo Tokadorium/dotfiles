@@ -26,9 +26,6 @@ nmap <F9> :TagbarToggle<CR>
 
 " --- COC ---
 
-" nmap <silent> gd <Plug>(coc-definition)
-
-" nmap <silent> gd :call CocAction('jumpDefinition', 'split')<CR>
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
