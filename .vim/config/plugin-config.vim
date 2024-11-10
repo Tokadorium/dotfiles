@@ -3,7 +3,6 @@
 let NERDTreeShowHidden=1
 let NERDTreeRespectWildIgnore=1
 set wildignore+=*.DS_Store,*.min.*
-" autocmd BufWinEnter * silent NERDTreeMirror
 
 
 " --- ALE ---
@@ -18,9 +17,6 @@ set shortmess+=c
 
 
 " --- AIRLINE ---
-
-" Automatically displays all buffers when there's only one tab open
-" let g:airline#extensions#tabline#enabled=1
 
 " Statusline segments configuration
 let g:airline_section_z=airline#section#create(['%p%%'])
