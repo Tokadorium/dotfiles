@@ -47,6 +47,6 @@ set splitbelow
 " --- SOURCE ---
 
 so ~/.vim/config/keybinds.vim
-so ~/.vim/config/plugins.vim
+so ~/.vim/config/vim-plug.vim
 so ~/.vim/config/plugin-config.vim
 so ~/.vim/config/colorschemes.vim
