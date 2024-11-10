@@ -19,7 +19,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
 " Plug 'preservim/tagbar'
 " Plug 'ludovicchabant/vim-gutentags'
-" Plug 'ryanoasis/vim-devicons'
 Plug 'sheerun/vim-polyglot'
+" Plug 'ryanoasis/vim-devicons' " always load last
 
 call plug#end()
