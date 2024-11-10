@@ -16,12 +16,12 @@ inoremap jj <Esc>
 
 " --- NERDTREE ---
 
-nnoremap <F8> :NERDTreeToggle<CR>
+nnoremap <F9> :NERDTreeToggle<CR>
 
 
 " --- TAGBAR ---
 
-" nmap <F9> :TagbarToggle<CR>
+" nmap <F8> :TagbarToggle<CR>
 
 
 " --- COC ---

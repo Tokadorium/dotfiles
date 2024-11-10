@@ -31,6 +31,7 @@ set noshowmode
 set conceallevel=1
 
 set noerrorbells visualbell t_vb=
+set t_RV=
 set noswapfile
 set nobackup
 set undodir=~/.vim/undodir
