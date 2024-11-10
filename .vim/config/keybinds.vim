@@ -21,7 +21,7 @@ nnoremap <F8> :NERDTreeToggle<CR>
 
 " --- TAGBAR ---
 
-nmap <F9> :TagbarToggle<CR>
+" nmap <F9> :TagbarToggle<CR>
 
 
 " --- COC ---
