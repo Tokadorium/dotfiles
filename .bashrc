@@ -2,19 +2,20 @@
 # /etc/bash.bashrc
 #
 
+# Sourced files
+if [[ -r /usr/share/bash-completion/bash_completion ]]; then
+  . /usr/share/bash-completion/bash_completion
+fi
+
+. ~/.bash/git-prompt.sh
+. ~/.bash/lscolors.sh
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# PS1='\u@\h \W \$ '
-
-. ~/.bash/git-prompt.sh
-
+# Prompt config
 export GIT_PS1_SHOWDIRTYSTATE=1
 export PS1='\u@\h \W $(__git_ps1 "(%s)")\$ '
-
-. ~/.bash/lscolors.sh
-
-alias ls="ls --color=auto"
 
 case ${TERM} in
   Eterm*|alacritty*|aterm*|foot*|gnome*|konsole*|kterm*|putty*|rxvt*|tmux*|xterm*)
@@ -26,6 +27,6 @@ case ${TERM} in
     ;;
 esac
 
-if [[ -r /usr/share/bash-completion/bash_completion ]]; then
-  . /usr/share/bash-completion/bash_completion
-fi
+# Custom aliases
+alias ranger='source ranger ranger'
+alias ls="ls --color=auto"
