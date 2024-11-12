@@ -3,13 +3,15 @@
 " nnoremap <C-h> :tabprevious<CR>
 " nnoremap <C-l> :tabnext<CR>
 
+" create new panes using Ctrl + W + %/" (tmux characters)
 nnoremap <C-w>% <C-w><C-v>
 nnoremap <C-w>" <C-w><C-s>
 
-nnoremap <C-j> <C-w><C-j>
-nnoremap <C-k> <C-w><C-k>
-nnoremap <C-l> <C-w><C-l>
-nnoremap <C-h> <C-w><C-h>
+" navigate splits with Alt + h/j/k/l
+nnoremap <M-j> <C-w><C-j>
+nnoremap <M-k> <C-w><C-k>
+nnoremap <M-l> <C-w><C-l>
+nnoremap <M-h> <C-w><C-h>
 
 inoremap jj <Esc>
 

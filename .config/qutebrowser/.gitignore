@@ -1,0 +1,7 @@
+# igonre everything
+/*
+
+# except these:
+!.gitignore
+!themes/
+!config.py

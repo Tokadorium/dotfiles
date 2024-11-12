@@ -14,8 +14,9 @@ fi
 [[ $- != *i* ]] && return
 
 # Prompt config
+# Prompt color tag format is \[\e[COLORm\], where COLOR is color code
 export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1='\u@\h \W $(__git_ps1 "(%s)")\$ '
+export PS1='\u@\h \W $(__git_ps1 "(%s) ")\$ '
 
 case ${TERM} in
   Eterm*|alacritty*|aterm*|foot*|gnome*|konsole*|kterm*|putty*|rxvt*|tmux*|xterm*)
@@ -29,4 +30,4 @@ esac
 
 # Custom aliases
 alias ranger='source ranger ranger'
-alias ls="ls --color=auto"
+alias ls="ls -F --color=auto"
