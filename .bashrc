@@ -14,9 +14,13 @@ fi
 [[ $- != *i* ]] && return
 
 # Prompt config
-# Prompt color tag format is \[\e[COLORm\], where COLOR is color code
+
+# Prompt color tag format is \[\e[COLORm\], where COLOR is color code,
+# eg. 38;2;⟨r⟩;⟨g⟩;⟨b⟩ - color code for 24bit color terminals
+
 export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1='\u@\h \W $(__git_ps1 "(%s) ")\$ '
+# export PS1='\u@\h \W $(__git_ps1 "(%s) ")\$ '
+export PS1='\u@\h \[\e[38;2;189;147;249m\]\W \e[0m$(__git_ps1 "(%s) ")\$ '
 
 case ${TERM} in
   Eterm*|alacritty*|aterm*|foot*|gnome*|konsole*|kterm*|putty*|rxvt*|tmux*|xterm*)
