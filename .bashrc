@@ -5,12 +5,14 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Completions
+. /usr/share/bash-completion/bash_completion
+. ~/.asdf/completions/asdf.bash
+
 # Sourced files
-if [[ -r /usr/share/bash-completion/bash_completion ]]; then
-  . /usr/share/bash-completion/bash_completion
-fi
 . ~/.bash/git-prompt.sh
 . ~/.bash/lscolors.sh
+. ~/.asdf/asdf.sh
 
 # Prompt config
 
