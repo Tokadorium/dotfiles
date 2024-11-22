@@ -10,7 +10,7 @@
 . ~/.asdf/completions/asdf.bash
 
 # Sourced files
-. ~/.bash/git-prompt.sh
+# . ~/.bash/git-prompt.sh
 . ~/.bash/lscolors.sh
 . ~/.asdf/asdf.sh
 
@@ -20,9 +20,9 @@
 # is color code ,eg. 38;2;R;G;B - color code for 24bit color terminals.
 # To signify end of color formatting use \e[0m
 
-export GIT_PS1_SHOWDIRTYSTATE=1
-# export PS1='\u@\h \[\e[38;2;189;147;249m\]\W\e[0m $(__git_ps1 "(%s) ")\$ '
-export PS1='\u@\h \[\e[34;2m\]\W\e[0m $(__git_ps1 "(%s) ")\$ '
+# export GIT_PS1_SHOWDIRTYSTATE=1
+# export PS1='\u@\h \[\e[34;2m\]\W\e[0m $(__git_ps1 "(%s) ")\$ '
+PS1='\u@\h \[\e[34;2m\]\W\e[0m \$ '
 
 # Custom aliases
 alias ranger='source ranger ranger'
