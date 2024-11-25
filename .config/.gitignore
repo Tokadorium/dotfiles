@@ -3,6 +3,7 @@
 
 # except these files:
 !.gitignore
+!btop/
 !kitty/
 !ranger/
 !qutebrowser/

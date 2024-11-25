@@ -7,12 +7,10 @@
 
 # Completions
 . /usr/share/bash-completion/bash_completion
-. ~/.asdf/completions/asdf.bash
 
 # Sourced files
 . ~/.bash/git-prompt.sh
 . ~/.bash/lscolors.sh
-. ~/.asdf/asdf.sh
 
 # Prompt config
 
