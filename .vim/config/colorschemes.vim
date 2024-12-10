@@ -3,11 +3,13 @@
 set termguicolors
 
 
-" --- DRACULA ---
-
-let g:dracula_colorterm = 0
-
-
 " --- COLORSCHEME ---
 
-colorscheme dracula
+" colorscheme dracula
+
+
+" --- DRACULA ---
+
+" let g:dracula_colorterm = 0
+
+
