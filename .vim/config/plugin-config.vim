@@ -16,12 +16,12 @@ let g:ale_linters = {'cpp': ['clang', 'gcc', 'g++']}
 set shortmess+=c
 
 
-" --- AIRLINE ---
+" " --- AIRLINE ---
 
-" Statusline segments configuration
-let g:airline_skip_empty_sections=1
-let g:airline_section_z=airline#section#create(['%p%%'])
-let g:airline#extensions#whitespace#checks = []
+" " Statusline segments configuration
+" let g:airline_skip_empty_sections=1
+" let g:airline_section_z=airline#section#create(['%p%%'])
+" let g:airline#extensions#whitespace#checks = []
 
-" ALE integration
-let g:airline#extensions#ale#enabled=1
+" " ALE integration
+" let g:airline#extensions#ale#enabled=1
